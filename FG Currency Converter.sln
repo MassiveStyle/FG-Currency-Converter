@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FG Currency Converter", "FG Currency Converter\FG Currency Converter.csproj", "{64010871-0836-44FD-9937-6DA083AD242D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64010871-0836-44FD-9937-6DA083AD242D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64010871-0836-44FD-9937-6DA083AD242D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64010871-0836-44FD-9937-6DA083AD242D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64010871-0836-44FD-9937-6DA083AD242D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {309F3F51-4D58-4285-9984-6C2074325CF0}
+	EndGlobalSection
+EndGlobal
