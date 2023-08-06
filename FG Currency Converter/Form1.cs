@@ -124,7 +124,20 @@ namespace Fantasy_Grounds_Currency_Converter
                     }
                     break;
             }
-            ppOutput.Text = Convert.ToString(platinInput + platinOutput);
+
+            switch (platinInput > 0)
+            {
+                case true:
+                    {
+                        ppOutput.Text = Convert.ToString(platinInput + goldInput / converter);
+                    }
+                    break;
+                    case false:
+                    {
+                        ppOutput.Text = Convert.ToString(platinInput + goldInput / converter);
+                    }
+                    break;
+            }
             FinalConversion();
         }
 
